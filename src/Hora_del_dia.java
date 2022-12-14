@@ -18,6 +18,9 @@ public class Hora_del_dia {
         segundo=seg;
     }
 
+    public void saludo (){
+        System.out.println("Holii Lucaas");}
+
     //---------------metodos---------------
     public void setReloj(int seg){
         hora=seg/3600;
